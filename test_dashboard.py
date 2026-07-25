@@ -45,7 +45,7 @@ class DashboardTests(unittest.TestCase):
         self.assertIn('styles.css?v=4', html)
         self.assertIn('app.js?v=4', html)
         self.assertIn("styles.css?v=4", js)
-        self.assertIn("app.js?v=4", js)
+        self.assertTrue((ROOT / "styles.css").read_text(encoding="utf-8").startswith("@import"))
 
 if __name__ == "__main__":
     unittest.main()
