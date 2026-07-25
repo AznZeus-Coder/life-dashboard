@@ -37,11 +37,15 @@ class DashboardTests(unittest.TestCase):
             self.assertIn(asset, js)
 
     def test_service_worker_updates_installed_app_instead_of_serving_stale_shell(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
         js = (ROOT / "sw.js").read_text(encoding="utf-8")
         self.assertIn("skipWaiting", js)
         self.assertIn("clients.claim", js)
         self.assertIn("caches.keys", js)
-        self.assertIn("request.mode==='navigate'", js)
+        self.assertIn('styles.css?v=4', html)
+        self.assertIn('app.js?v=4', html)
+        self.assertIn("styles.css?v=4", js)
+        self.assertIn("app.js?v=4", js)
 
 if __name__ == "__main__":
     unittest.main()
