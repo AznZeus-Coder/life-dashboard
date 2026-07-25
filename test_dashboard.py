@@ -20,6 +20,18 @@ class DashboardTests(unittest.TestCase):
         self.assertIn('class="tracker-days"', html)
         self.assertIn('"display": "standalone"', manifest)
 
+    def test_second_brain_modules_exist_and_persist(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        js = (ROOT / "app.js").read_text(encoding="utf-8")
+        for element_id in ["inbox-form", "inbox-list", "project-form", "project-list", "journal-form", "journal-list", "goal-form", "goal-list", "event-form", "event-list"]:
+            self.assertIn(f'id="{element_id}"', html)
+        for collection in ["inbox", "projects", "journal", "goals", "events"]:
+            self.assertIn(f"state.{collection}", js)
+        for function in ["addInboxItem", "addProject", "addJournalEntry", "addGoal", "addEvent"]:
+            self.assertRegex(js, rf"function\s+{function}")
+        self.assertIn("priority", js)
+        self.assertIn("projectId", js)
+
     def test_app_persists_data_and_supports_recurring_chores(self):
         js = (ROOT / "app.js").read_text(encoding="utf-8")
         self.assertIn("localStorage", js)
@@ -61,9 +73,9 @@ class DashboardTests(unittest.TestCase):
         self.assertIn("skipWaiting", js)
         self.assertIn("clients.claim", js)
         self.assertIn("caches.keys", js)
-        self.assertIn('styles.css?v=10', html)
-        self.assertIn('app.js?v=10', html)
-        self.assertIn("styles.css?v=10", js)
+        self.assertIn('styles.css?v=11', html)
+        self.assertIn('app.js?v=11', html)
+        self.assertIn("styles.css?v=11", js)
         css = (ROOT / "styles.css").read_text(encoding="utf-8")
         self.assertTrue(css.startswith("@import"))
         self.assertEqual(css.count("{"), css.count("}"))
