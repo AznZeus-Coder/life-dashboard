@@ -36,5 +36,12 @@ class DashboardTests(unittest.TestCase):
         for asset in ["./", "./index.html", "./styles.css", "./app.js"]:
             self.assertIn(asset, js)
 
+    def test_service_worker_updates_installed_app_instead_of_serving_stale_shell(self):
+        js = (ROOT / "sw.js").read_text(encoding="utf-8")
+        self.assertIn("skipWaiting", js)
+        self.assertIn("clients.claim", js)
+        self.assertIn("caches.keys", js)
+        self.assertIn("request.mode==='navigate'", js)
+
 if __name__ == "__main__":
     unittest.main()
