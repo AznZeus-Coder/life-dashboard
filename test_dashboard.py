@@ -21,6 +21,16 @@ class DashboardTests(unittest.TestCase):
         self.assertRegex(js, r"function\s+completeChore")
         self.assertIn("nextDue", js)
 
+    def test_cloud_sync_uses_supabase_auth_and_user_scoped_data(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        js = (ROOT / "app.js").read_text(encoding="utf-8")
+        self.assertIn("@supabase/supabase-js", html)
+        self.assertIn('id="auth-panel"', html)
+        self.assertIn("signInWithOtp", js)
+        self.assertIn("daybook_data", js)
+        self.assertIn("user_id", js)
+        self.assertIn("onAuthStateChange", js)
+
     def test_service_worker_caches_app_shell(self):
         js = (ROOT / "sw.js").read_text(encoding="utf-8")
         for asset in ["./", "./index.html", "./styles.css", "./app.js"]:
