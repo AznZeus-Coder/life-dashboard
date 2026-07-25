@@ -29,7 +29,9 @@ class DashboardTests(unittest.TestCase):
         self.assertIn("signInWithOtp", js)
         self.assertIn("daybook_data", js)
         self.assertIn("user_id", js)
-        self.assertIn("onAuthStateChange", js)
+        self.assertNotIn("[truncated]", js)
+        self.assertRegex(js, r"document\.querySelector\('#quick-add'\)\.onsubmit")
+        self.assertRegex(js, r"document\.querySelector\('#auth-form'\)\.onsubmit")
 
     def test_service_worker_caches_app_shell(self):
         js = (ROOT / "sw.js").read_text(encoding="utf-8")
@@ -42,9 +44,9 @@ class DashboardTests(unittest.TestCase):
         self.assertIn("skipWaiting", js)
         self.assertIn("clients.claim", js)
         self.assertIn("caches.keys", js)
-        self.assertIn('styles.css?v=4', html)
-        self.assertIn('app.js?v=4', html)
-        self.assertIn("styles.css?v=4", js)
+        self.assertIn('styles.css?v=5', html)
+        self.assertIn('app.js?v=5', html)
+        self.assertIn("styles.css?v=5", js)
         css = (ROOT / "styles.css").read_text(encoding="utf-8")
         self.assertTrue(css.startswith("@import"))
         self.assertEqual(css.count("{"), css.count("}"))
