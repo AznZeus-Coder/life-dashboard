@@ -12,6 +12,9 @@ class DashboardTests(unittest.TestCase):
         self.assertIn('id="quick-add"', html)
         self.assertIn('id="task-list"', html)
         self.assertIn('id="chore-list"', html)
+        self.assertIn('id="habit-list"', html)
+        self.assertIn('id="habit-form"', html)
+        self.assertIn('id="habit-minutes"', html)
         self.assertIn('"display": "standalone"', manifest)
 
     def test_app_persists_data_and_supports_recurring_chores(self):
@@ -20,6 +23,10 @@ class DashboardTests(unittest.TestCase):
         self.assertRegex(js, r"function\s+addTask")
         self.assertRegex(js, r"function\s+completeChore")
         self.assertIn("nextDue", js)
+        self.assertRegex(js, r"function\s+completeHabit")
+        self.assertIn("Cleaning room", js)
+        self.assertIn("minutes:15", js)
+        self.assertIn("lastCompleted", js)
 
     def test_cloud_sync_uses_supabase_auth_and_user_scoped_data(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -44,9 +51,9 @@ class DashboardTests(unittest.TestCase):
         self.assertIn("skipWaiting", js)
         self.assertIn("clients.claim", js)
         self.assertIn("caches.keys", js)
-        self.assertIn('styles.css?v=5', html)
-        self.assertIn('app.js?v=5', html)
-        self.assertIn("styles.css?v=5", js)
+        self.assertIn('styles.css?v=6', html)
+        self.assertIn('app.js?v=6', html)
+        self.assertIn("styles.css?v=6", js)
         css = (ROOT / "styles.css").read_text(encoding="utf-8")
         self.assertTrue(css.startswith("@import"))
         self.assertEqual(css.count("{"), css.count("}"))
