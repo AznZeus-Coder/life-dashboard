@@ -45,7 +45,12 @@ class DashboardTests(unittest.TestCase):
         self.assertIn('styles.css?v=4', html)
         self.assertIn('app.js?v=4', html)
         self.assertIn("styles.css?v=4", js)
-        self.assertTrue((ROOT / "styles.css").read_text(encoding="utf-8").startswith("@import"))
+        css = (ROOT / "styles.css").read_text(encoding="utf-8")
+        self.assertTrue(css.startswith("@import"))
+        self.assertEqual(css.count("{"), css.count("}"))
+        self.assertNotIn("[truncated]", css)
+        self.assertIn(".auth{", css)
+        self.assertIn("@media(max-width:700px)", css)
 
 if __name__ == "__main__":
     unittest.main()
