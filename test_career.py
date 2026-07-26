@@ -96,6 +96,26 @@ class CareerTabTests(unittest.TestCase):
         for sel in [".career-tabs", ".career-board", ".career-card", ".career-detail", ".career-score", ".career-toolbar", ".career-stage", ".career-mode-remote", ".career-mode-hybrid", ".career-mode-onsite"]:
             self.assertIn(sel, CSS)
 
+    def test_career_card_company_is_most_prominent(self):
+        """Company name must be visually larger than the title on each job card."""
+        # Company uses Press Start 2P display font at 22px; title uses 17px.
+        m_company = re.search(r"\.career-card-company\{([^}]+)\}", CSS)
+        m_title = re.search(r"\.career-card strong\{([^}]+)\}", CSS)
+        self.assertIsNotNone(m_company, "missing .career-card-company rule")
+        self.assertIsNotNone(m_title, "missing .career-card strong rule")
+        company_decl = m_company.group(1)
+        title_decl = m_title.group(1)
+        # Company should declare the bigger display font and a larger size.
+        self.assertIn("Press Start 2P", company_decl,
+                      "company must use the prominent Press Start 2P display font")
+        self.assertIn("22px", company_decl, "company font-size must be 22px")
+        self.assertIn("17px", title_decl, "title font-size must be 17px (smaller than company)")
+        # Numeric guard: company px size > title px size.
+        comp_px = int(re.search(r"(\d+)px", company_decl).group(1))
+        title_px = int(re.search(r"(\d+)px", title_decl).group(1))
+        self.assertGreater(comp_px, title_px,
+                           f"company ({comp_px}px) must be larger than title ({title_px}px)")
+
     def test_career_card_renders_company_above_title(self):
         """Cards must show Company above Title (LinkedIn / Indeed layout)."""
         # The renderCareer template must place .career-card-company BEFORE <strong>{title}.
