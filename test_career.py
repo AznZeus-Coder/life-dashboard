@@ -86,8 +86,9 @@ class CareerTabTests(unittest.TestCase):
         self.assertIn("app.js?v=14", SW)
 
     def test_job_import_widget_present(self):
-        for el in ["job-import-json","job-import-run","job-import-status","career-import"]:
-            self.assertIn(f'id="{el}"', HTML) or self.assertIn(f'class="{el}"', HTML)
+        for el in ["job-import-json", "job-import-run", "job-import-status"]:
+            self.assertIn('id="'+el+'"', HTML)
+        self.assertIn('class="career-import"', HTML)
         self.assertIn("import", JS.lower())
         self.assertIn("JSON.parse", JS)
 
