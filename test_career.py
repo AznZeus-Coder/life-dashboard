@@ -79,11 +79,17 @@ class CareerTabTests(unittest.TestCase):
             self.assertIn(sel, CSS)
 
     def test_career_block_exists_in_sw(self):
-        self.assertIn("app.js?v=13", HTML)
-        self.assertIn("styles.css?v=13", HTML)
-        self.assertIn("daybook-v13", SW)
-        self.assertIn("styles.css?v=13", SW)
-        self.assertIn("app.js?v=13", SW)
+        self.assertIn("app.js?v=14", HTML)
+        self.assertIn("styles.css?v=14", HTML)
+        self.assertIn("daybook-v14", SW)
+        self.assertIn("styles.css?v=14", SW)
+        self.assertIn("app.js?v=14", SW)
+
+    def test_job_import_widget_present(self):
+        for el in ["job-import-json","job-import-run","job-import-status","career-import"]:
+            self.assertIn(f'id="{el}"', HTML) or self.assertIn(f'class="{el}"', HTML)
+        self.assertIn("import", JS.lower())
+        self.assertIn("JSON.parse", JS)
 
     def test_no_truncation_markers(self):
         for marker in ["[truncated]", "[Truncated]"]:
