@@ -136,6 +136,25 @@ class CareerTabTests(unittest.TestCase):
         self.assertLess(company_pos, title_pos,
                         "Company must render above the title inside the card template")
 
+    def test_career_card_includes_company_tag_one_liner(self):
+        """When a job has a `companyTag`, the card must render it under the company name."""
+        # The renderCareer template must include a .career-card-company-tag paragraph
+        # placed after .career-card-company and before the title header.
+        i = JS.find('data-show-job="')
+        j = JS.find('</article>', i)
+        card_template = JS[i:j]
+        self.assertIn("career-card-company-tag", card_template,
+                      "card template missing .career-card-company-tag element")
+        # Order: company name -> company tag -> header (title+pill)
+        c = card_template.find("career-card-company\"")
+        t = card_template.find("career-card-company-tag")
+        h = card_template.find("<header>")
+        self.assertNotEqual(c, -1); self.assertNotEqual(t, -1); self.assertNotEqual(h, -1)
+        self.assertLess(c, t, "company tag must appear after company name")
+        self.assertLess(t, h, "company tag must appear before the title header")
+        # CSS must define the tag style
+        self.assertIn(".career-card-company-tag", CSS)
+
     def test_career_block_exists_in_sw(self):
         self.assertIn("app.js?v=17", HTML)
         self.assertIn("styles.css?v=17", HTML)

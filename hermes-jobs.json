@@ -64,7 +64,8 @@
         "composite": 10.0,
         "query": "controller",
         "salaryLabel": "$170k-$200k"
-      }
+      },
+      "companyTag": "Vancouver-based identity verification platform for KYC, fraud prevention, and business entity checks."
     },
     {
       "id": "8CwQvY5BosD5xmzez6wagtwXEnUQXkI2v2BpeMDMjvx0te_2oFXzm_IyexPXzulp",
@@ -95,7 +96,8 @@
         "composite": 10.0,
         "query": "controller",
         "salaryLabel": "$175k-$200k"
-      }
+      },
+      "companyTag": "Vancouver SaaS company that helps MSPs manage customer infrastructure and data-protection lifecycles."
     },
     {
       "id": "CyYZUfBrPWYvzveHi6u0hD70uOOXcJ9ZjE6TJOeWiBeLE94sSKpu0zuiyVriSYhy",
@@ -126,7 +128,8 @@
         "composite": 8.4,
         "query": "controller",
         "salaryLabel": "$140k-$180k"
-      }
+      },
+      "companyTag": "Global consulting firm specializing in turnaround management, performance improvement, and restructuring."
     },
     {
       "id": "MkEYUxe4OM58V1se2TDbQnfAwfWs837VQDskEyClPUFOolUzkufYwA",
@@ -157,7 +160,8 @@
         "composite": 8.2,
         "query": "controller",
         "salaryLabel": "$120k-$130k"
-      }
+      },
+      "companyTag": "Burnaby-based accounting and tax firm serving Canadian and U.S. small-to-mid businesses."
     },
     {
       "id": "kRZREBEGxNeArxbpKL2xBUhi-j6p5TY-7NqTWnXZbsUyIFKX7MrGQ-N8nOVzf-Bj",
@@ -188,7 +192,8 @@
         "composite": 8.2,
         "query": "controller",
         "salaryLabel": "$120k-$130k"
-      }
+      },
+      "companyTag": "Burnaby-based accounting and tax firm serving Canadian and U.S. small-to-mid businesses."
     },
     {
       "id": "a16yj402FPzRFtZv4SePghoeQNu-2r6a5JkrdJC29aMZ5ocXK4strdIUa3cK3gbZ",
@@ -219,7 +224,8 @@
         "composite": 7.9,
         "query": "assistant+controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Vancouver recruitment / strategic search firm placing finance and accounting talent."
     },
     {
       "id": "de_drjOzK7CKUNCHTtcnUFMssYvapV9n4BHL05e6AG-ll_GOE1vg7Q",
@@ -250,7 +256,8 @@
         "composite": 7.35,
         "query": "assistant+controller",
         "salaryLabel": "$150k-$175k"
-      }
+      },
+      "companyTag": "Vancouver-based Canadian chocolatier and confectionery manufacturer with retail stores across BC and Canada."
     },
     {
       "id": "CJt-y4c9-1mNXCpm_KB8Nu1phxIPfaEtwE5aGTMqQsCfYakp0V1-2NPkYFBEApar",
@@ -281,7 +288,8 @@
         "composite": 7.35,
         "query": "controller",
         "salaryLabel": "$150k-$175k"
-      }
+      },
+      "companyTag": "Vancouver-based Canadian chocolatier and confectionery manufacturer with retail stores across BC and Canada."
     },
     {
       "id": "YrZRu2Rjk0Sd1hG3Gw7aroizeF4LeVzDCv0ZOd6MQ7qLbNR2MF17PQ",
@@ -312,7 +320,8 @@
         "composite": 6.95,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Lower Mainland property-restoration contractor handling flood, fire, and mold remediation."
     },
     {
       "id": "_YD-FkFKs8z8L7Dw_03WarPKwujYrsA-Obkog1CDTHq1soXW-VgcOw",
@@ -343,7 +352,8 @@
         "composite": 6.95,
         "query": "controller",
         "salaryLabel": "$130k-$150k"
-      }
+      },
+      "companyTag": "U.S.-based tire recycling and processing company with Delta, BC operations."
     },
     {
       "id": "Oaiv0xthKXaKP3SJ0XjM5IEqY--xFG2qoAH7bZj89RbofG9dlrXbQw",
@@ -374,7 +384,8 @@
         "composite": 6.95,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Vancouver family-owned residential rental and property management company."
     },
     {
       "id": "n2mh7X49N8y7UcjG1-mRkE3OXrtDAwnKat5Z-tz5Z46Mwz1cXuzr2VYxgnLq-kBN",
@@ -405,7 +416,8 @@
         "composite": 6.95,
         "query": "controller",
         "salaryLabel": "$130k-$150k"
-      }
+      },
+      "companyTag": "Vancouver real-estate developer and property management group."
     },
     {
       "id": "a21f0iiBlRAsB-J3-9sgAPgRnyEk3wu96LVKb_miSffY8CKBe1IvY2VL2o-YFbVY",
@@ -436,7 +448,8 @@
         "composite": 6.95,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Lower Mainland property-restoration contractor handling flood, fire, and mold remediation."
     },
     {
       "id": "l1sZj6Ea29aousab5ztwfhM2gNm7PagUuUKlH2OHpJ1Fq3O3ruiJIg",
@@ -467,7 +480,8 @@
         "composite": 6.9,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Canadian private equity / family-office investor operating multiple business divisions."
     },
     {
       "id": "L1PEELv-gWXLPrN4oSIh6HEEggb0O6EmMfsKgMhzSPBa_jtLDuC_aQ",
@@ -498,7 +512,8 @@
         "composite": 6.9,
         "query": "controller",
         "salaryLabel": "$160k-$180k"
-      }
+      },
+      "companyTag": "Vancouver-area property services and building-maintenance company."
     },
     {
       "id": "C5KVFnsixIpxSRs655j2MuEbdUaMmJ94N9rT1M4gAMsnvmx0b00Elg",
@@ -529,7 +544,8 @@
         "composite": 6.5,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "North American building-solutions spinoff from Holcim covering cement, aggregates, and roofing."
     },
     {
       "id": "7CexTtUa18CLm6ADM0i5hTONmw9ZZgA5LLSzecpFufVRetdn3fexEA",
@@ -560,7 +576,8 @@
         "composite": 6.5,
         "query": "controller",
         "salaryLabel": "no comp listed"
-      }
+      },
+      "companyTag": "Vancouver interior design firm serving commercial and residential clients."
     }
   ]
 }
