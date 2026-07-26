@@ -1,0 +1,597 @@
+{
+  "scannedAt": "2026-07-26T03:19:11.539148+00:00",
+  "userEmail": "MatthewCheng149@gmail.com",
+  "count": 18,
+  "queries": [
+    {
+      "source": "simplyhired",
+      "q": "controller",
+      "loc": "Vancouver%2C+BC"
+    },
+    {
+      "source": "simplyhired",
+      "q": "assistant+controller",
+      "loc": "Vancouver%2C+BC"
+    },
+    {
+      "source": "simplyhired",
+      "q": "controller",
+      "loc": "Toronto%2C+ON"
+    },
+    {
+      "source": "simplyhired",
+      "q": "financial+controller",
+      "loc": "Vancouver%2C+BC"
+    },
+    {
+      "source": "workopolis",
+      "q": "controller",
+      "loc": "vancouver+british%2C+columbia"
+    },
+    {
+      "source": "workopolis",
+      "q": "assistant+controller",
+      "loc": "vancouver+british%2C+columbia"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "wWunxaMJtat68U6DMkPSjMtPg2y9erwuFKlUR6NAbZv6-pIzUM-0Jg1lYOHiZVHG",
+      "title": "Corporate Controller",
+      "company": "Trulioo",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/wWunxaMJtat68U6DMkPSjMtPg2y9erwuFKlUR6NAbZv6-pIzUM-0Jg1lYOHiZVHG",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 170,
+      "compTarget": 170,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 10,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 10,
+        "priority": 7
+      },
+      "notes": "Rank: 10.0/10. $170k-$200k. On the treasury side, you'll maintain cash visibility, support cash forecasting in close partnership with FP&A, and manage banking relationships and operational\u2026",
+      "description": "On the treasury side, you'll maintain cash visibility, support cash forecasting in close partnership with FP&A, and manage banking relationships and operational\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 10.0,
+        "query": "controller",
+        "salaryLabel": "$170k-$200k"
+      }
+    },
+    {
+      "id": "8CwQvY5BosD5xmzez6wagtwXEnUQXkI2v2BpeMDMjvx0te_2oFXzm_IyexPXzulp",
+      "title": "Corporate Controller",
+      "company": "ScalePad",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/8CwQvY5BosD5xmzez6wagtwXEnUQXkI2v2BpeMDMjvx0te_2oFXzm_IyexPXzulp",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 175,
+      "compTarget": 175,
+      "compStretch": 175,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 10,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 10,
+        "priority": 7
+      },
+      "notes": "Rank: 10.0/10. $175k-$200k. Maximize our NetSuite investment and keep improving how the function runs; you'll have license to experiment with automation and new tools.",
+      "description": "Maximize our NetSuite investment and keep improving how the function runs; you'll have license to experiment with automation and new tools.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 10.0,
+        "query": "controller",
+        "salaryLabel": "$175k-$200k"
+      }
+    },
+    {
+      "id": "CyYZUfBrPWYvzveHi6u0hD70uOOXcJ9ZjE6TJOeWiBeLE94sSKpu0zuiyVriSYhy",
+      "title": "Manager, Cost Controller",
+      "company": "Alvarez & Marsal",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/CyYZUfBrPWYvzveHi6u0hD70uOOXcJ9ZjE6TJOeWiBeLE94sSKpu0zuiyVriSYhy",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 140,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 8,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 10,
+        "priority": 7
+      },
+      "notes": "Rank: 8.4/10. $140k-$180k. Bachelor\u2019s degree in Finance, Accounting, Engineering, or related field. The incumbent will work closely with project management, supply chain, and engineering\u2026",
+      "description": "Bachelor\u2019s degree in Finance, Accounting, Engineering, or related field. The incumbent will work closely with project management, supply chain, and engineering\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 8.4,
+        "query": "controller",
+        "salaryLabel": "$140k-$180k"
+      }
+    },
+    {
+      "id": "MkEYUxe4OM58V1se2TDbQnfAwfWs837VQDskEyClPUFOolUzkufYwA",
+      "title": "Financial Controller",
+      "company": "Inkeros",
+      "url": "https://www.simplyhired.ca/job/MkEYUxe4OM58V1se2TDbQnfAwfWs837VQDskEyClPUFOolUzkufYwA",
+      "location": "Burnaby, BC",
+      "mode": "hybrid",
+      "stage": "Found",
+      "compMin": 120,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 5,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 10,
+        "priority": 7
+      },
+      "notes": "Rank: 8.2/10. $120k-$130k. Do you have the following license or certification: Certified Public Accountant (CPA). Manage and approve payroll processing for all Canadian and U.S. employees\u2026",
+      "description": "Do you have the following license or certification: Certified Public Accountant (CPA). Manage and approve payroll processing for all Canadian and U.S. employees\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 8.2,
+        "query": "controller",
+        "salaryLabel": "$120k-$130k"
+      }
+    },
+    {
+      "id": "kRZREBEGxNeArxbpKL2xBUhi-j6p5TY-7NqTWnXZbsUyIFKX7MrGQ-N8nOVzf-Bj",
+      "title": "Financial Controller",
+      "company": "Inkeros",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/kRZREBEGxNeArxbpKL2xBUhi-j6p5TY-7NqTWnXZbsUyIFKX7MrGQ-N8nOVzf-Bj",
+      "location": "Burnaby, BC",
+      "mode": "hybrid",
+      "stage": "Found",
+      "compMin": 120,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 5,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 10,
+        "priority": 7
+      },
+      "notes": "Rank: 8.2/10. $120k-$130k. Do you have the following license or certification: Certified Public Accountant (CPA). Manage and approve payroll processing for all Canadian and U.S. employees\u2026",
+      "description": "Do you have the following license or certification: Certified Public Accountant (CPA). Manage and approve payroll processing for all Canadian and U.S. employees\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 8.2,
+        "query": "controller",
+        "salaryLabel": "$120k-$130k"
+      }
+    },
+    {
+      "id": "qZce9PORNuzTc2rAIcM3tNboZ-TtgXXbeCDr9mg0zDoAUJAJIi-XNJWqdIFyOW5k",
+      "title": "Senior Document Controller",
+      "company": "Worley",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/qZce9PORNuzTc2rAIcM3tNboZ-TtgXXbeCDr9mg0zDoAUJAJIi-XNJWqdIFyOW5k",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 7.45/10. ?. General understanding of engineering, procurement, and construction activities with respect to document management and control would be an asset.",
+      "description": "General understanding of engineering, procurement, and construction activities with respect to document management and control would be an asset.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 7.45,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "hG5Jfqv6qTGKGvVuukPftOaibC1Jkoyk6x7GgZmvk2GYfCzKUZFdEw",
+      "title": "Financial Controller",
+      "company": "Henry Schein One",
+      "url": "https://www.simplyhired.ca/job/hG5Jfqv6qTGKGvVuukPftOaibC1Jkoyk6x7GgZmvk2GYfCzKUZFdEw",
+      "location": "Surrey, BC",
+      "mode": "hybrid",
+      "stage": "Found",
+      "compMin": 120,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 5,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 8,
+        "priority": 7
+      },
+      "notes": "Rank: 7.4/10. $120k-$135k. At Henry Schein One, hiring is always human first: every application is personally reviewed, every interview is human-to-human, and we only use AI tools to\u2026",
+      "description": "At Henry Schein One, hiring is always human first: every application is personally reviewed, every interview is human-to-human, and we only use AI tools to\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:07.720863+00:00",
+        "composite": 7.4,
+        "query": "financial+controller",
+        "salaryLabel": "$120k-$135k"
+      }
+    },
+    {
+      "id": "de_drjOzK7CKUNCHTtcnUFMssYvapV9n4BHL05e6AG-ll_GOE1vg7Q",
+      "title": "Controller, Finance",
+      "company": "Purdys Chocolatier",
+      "url": "https://www.simplyhired.ca/job/de_drjOzK7CKUNCHTtcnUFMssYvapV9n4BHL05e6AG-ll_GOE1vg7Q",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 150,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 9,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 7.35/10. $150k-$175k. Proven people leadership experience, including coaching, performance management, workload planning, and team development.",
+      "description": "Proven people leadership experience, including coaching, performance management, workload planning, and team development.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:02.986889+00:00",
+        "composite": 7.35,
+        "query": "assistant+controller",
+        "salaryLabel": "$150k-$175k"
+      }
+    },
+    {
+      "id": "CJt-y4c9-1mNXCpm_KB8Nu1phxIPfaEtwE5aGTMqQsCfYakp0V1-2NPkYFBEApar",
+      "title": "Controller, Finance",
+      "company": "Purdys Chocolatier",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/CJt-y4c9-1mNXCpm_KB8Nu1phxIPfaEtwE5aGTMqQsCfYakp0V1-2NPkYFBEApar",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 150,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 9,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 7.35/10. $150k-$175k. Proven people leadership experience, including coaching, performance management, workload planning, and team development.",
+      "description": "Proven people leadership experience, including coaching, performance management, workload planning, and team development.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 7.35,
+        "query": "controller",
+        "salaryLabel": "$150k-$175k"
+      }
+    },
+    {
+      "id": "1qG1G-RFfb1_KpQjxHWmkZYgzCsjac8VdxhFJ9KfEVDzKSMo4L5dFw",
+      "title": "Group Cost Controller",
+      "company": "Niradia Group of Companies",
+      "url": "https://www.simplyhired.ca/job/1qG1G-RFfb1_KpQjxHWmkZYgzCsjac8VdxhFJ9KfEVDzKSMo4L5dFw",
+      "location": "Delta, BC",
+      "mode": "onsite",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. ?. Review purchase orders, subcontract agreements, change orders, and invoices for cost accuracy. Strong understanding of construction and development project\u2026",
+      "description": "Review purchase orders, subcontract agreements, change orders, and invoices for cost accuracy. Strong understanding of construction and development project\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "YrZRu2Rjk0Sd1hG3Gw7aroizeF4LeVzDCv0ZOd6MQ7qLbNR2MF17PQ",
+      "title": "Controller",
+      "company": "Phoenix Restorations",
+      "url": "https://www.simplyhired.ca/job/YrZRu2Rjk0Sd1hG3Gw7aroizeF4LeVzDCv0ZOd6MQ7qLbNR2MF17PQ",
+      "location": "Coquitlam, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. ?. Conduct variance analysis and identify drivers of project performance. Strengthen accounts receivable, invoicing and collections processes for disciplined cash\u2026",
+      "description": "Conduct variance analysis and identify drivers of project performance. Strengthen accounts receivable, invoicing and collections processes for disciplined cash\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "_YD-FkFKs8z8L7Dw_03WarPKwujYrsA-Obkog1CDTHq1soXW-VgcOw",
+      "title": "Regional Controller",
+      "company": "Liberty Tire Recycling",
+      "url": "https://www.simplyhired.ca/job/_YD-FkFKs8z8L7Dw_03WarPKwujYrsA-Obkog1CDTHq1soXW-VgcOw",
+      "location": "Delta, BC",
+      "mode": "onsite",
+      "stage": "Reviewing",
+      "compMin": 130,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. $130k-$150k. Lead, mentor, and develop the administrative and accounting team (8 direct and indirect reports), including AP, AR, payroll, and senior accounting staff.",
+      "description": "Lead, mentor, and develop the administrative and accounting team (8 direct and indirect reports), including AP, AR, payroll, and senior accounting staff.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "$130k-$150k"
+      }
+    },
+    {
+      "id": "Oaiv0xthKXaKP3SJ0XjM5IEqY--xFG2qoAH7bZj89RbofG9dlrXbQw",
+      "title": "Family Office Controller",
+      "company": "Hollyburn Properties Ltd.",
+      "url": "https://www.simplyhired.ca/job/Oaiv0xthKXaKP3SJ0XjM5IEqY--xFG2qoAH7bZj89RbofG9dlrXbQw",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. ?. Must hold a Bachelor\u2019s degree in Accounting, Finance or related field; Canadian CPA designation strongly preferred.",
+      "description": "Must hold a Bachelor\u2019s degree in Accounting, Finance or related field; Canadian CPA designation strongly preferred.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "IcFxtB4IYr6ntQOhhFTHrn1GI9nhRXEhPwVDzrRxWcVn83pqZONaUg",
+      "title": "Controller, Development",
+      "company": "PETERSON GROUP PROPERTI",
+      "url": "https://www.simplyhired.ca/job/IcFxtB4IYr6ntQOhhFTHrn1GI9nhRXEhPwVDzrRxWcVn83pqZONaUg",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 130,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. $130k-$150k. Strong experience with project reporting, budgeting, forecasting, cash flow analysis, cost tracking, and variance analysis.",
+      "description": "Strong experience with project reporting, budgeting, forecasting, cash flow analysis, cost tracking, and variance analysis.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:00.846037+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "$130k-$150k"
+      }
+    },
+    {
+      "id": "n2mh7X49N8y7UcjG1-mRkE3OXrtDAwnKat5Z-tz5Z46Mwz1cXuzr2VYxgnLq-kBN",
+      "title": "Controller, Development",
+      "company": "PETERSON GROUP PROPERTI",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/n2mh7X49N8y7UcjG1-mRkE3OXrtDAwnKat5Z-tz5Z46Mwz1cXuzr2VYxgnLq-kBN",
+      "location": "Vancouver, BC",
+      "mode": "hybrid",
+      "stage": "Reviewing",
+      "compMin": 130,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. $130k-$150k. Strong experience with project reporting, budgeting, forecasting, cash flow analysis, cost tracking, and variance analysis.",
+      "description": "Strong experience with project reporting, budgeting, forecasting, cash flow analysis, cost tracking, and variance analysis.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:08.637992+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "$130k-$150k"
+      }
+    },
+    {
+      "id": "SBr7cYLJ0vMWiocp2Bxgm_JTFNKmxwBErFzEqMZLmm6s3r-iBVOcXbT4soF_jThM",
+      "title": "Group Cost Controller",
+      "company": "Niradia Group of Companies",
+      "url": "https://www.workopolis.com/jobsearch/viewjob/SBr7cYLJ0vMWiocp2Bxgm_JTFNKmxwBErFzEqMZLmm6s3r-iBVOcXbT4soF_jThM",
+      "location": "Delta, BC",
+      "mode": "onsite",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "workopolis",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 10,
+        "industry": 5,
+        "priority": 7
+      },
+      "notes": "Rank: 6.95/10. ?. Review purchase orders, subcontract agreements, change orders, and invoices for cost accuracy. Strong understanding of construction and development project\u2026",
+      "description": "Review purchase orders, subcontract agreements, change orders, and invoices for cost accuracy. Strong understanding of construction and development project\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:09.954181+00:00",
+        "composite": 6.95,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "l1sZj6Ea29aousab5ztwfhM2gNm7PagUuUKlH2OHpJ1Fq3O3ruiJIg",
+      "title": "Confidential Employer: Financial Controller \u2013 15-Month Defined-Term Assignment",
+      "company": "ARC Capital North America",
+      "url": "https://www.simplyhired.ca/job/l1sZj6Ea29aousab5ztwfhM2gNm7PagUuUKlH2OHpJ1Fq3O3ruiJIg",
+      "location": "Greater Toronto Area, ON",
+      "mode": "onsite",
+      "stage": "Reviewing",
+      "compMin": 0,
+      "compTarget": 150,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 7,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 6,
+        "industry": 6,
+        "priority": 7
+      },
+      "notes": "Rank: 6.9/10. ?. Our client is a large faith-based charitable organization with multiple operating divisions, including Islamic schools, mosques, and community programs.",
+      "description": "Our client is a large faith-based charitable organization with multiple operating divisions, including Islamic schools, mosques, and community programs.",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:04.763182+00:00",
+        "composite": 6.9,
+        "query": "controller",
+        "salaryLabel": "?"
+      }
+    },
+    {
+      "id": "L1PEELv-gWXLPrN4oSIh6HEEggb0O6EmMfsKgMhzSPBa_jtLDuC_aQ",
+      "title": "Controller",
+      "company": "Elevate Service Group",
+      "url": "https://www.simplyhired.ca/job/L1PEELv-gWXLPrN4oSIh6HEEggb0O6EmMfsKgMhzSPBa_jtLDuC_aQ",
+      "location": "Mississauga, ON",
+      "mode": "onsite",
+      "stage": "Reviewing",
+      "compMin": 160,
+      "compTarget": 160,
+      "compStretch": 170,
+      "source": "simplyhired",
+      "scores": {
+        "qualifications": 7,
+        "comp": 9,
+        "scope": 7,
+        "growth": 7,
+        "company": 7,
+        "location": 6,
+        "industry": 6,
+        "priority": 7
+      },
+      "notes": "Rank: 6.9/10. $160k-$180k. Developing and implement cash flow and treasury strategies to support business growth. Comp: $160k-$180k annual salary, cash bonus + equity/options, paid\u2026",
+      "description": "Developing and implement cash flow and treasury strategies to support business growth. Comp: $160k-$180k annual salary, cash bonus + equity/options, paid\u2026",
+      "_hermes": {
+        "fetchedAt": "2026-07-26T03:19:04.763182+00:00",
+        "composite": 6.9,
+        "query": "controller",
+        "salaryLabel": "$160k-$180k"
+      }
+    }
+  ]
+}
