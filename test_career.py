@@ -42,7 +42,25 @@ class CareerTabTests(unittest.TestCase):
         for el in ["career-detail", "job-tailored-resume", "job-cover-letter", "job-match-analysis", "job-screening-answers", "job-interview-prep", "job-stage-update", "job-score-update", "job-composite", "job-detail-title", "job-detail-meta", "job-tailor-suggestion"]:
             self.assertIn(f'id="{el}"', HTML)
 
-    def test_job_pipeline_state_normalized(self):
+    def test_job_description_popup_exists(self):
+        for el in [
+            "job-description-dialog",
+            "job-description-title",
+            "job-description-meta",
+            "job-description-content",
+            "job-source-link",
+            "job-open-workspace",
+            "job-description-close",
+        ]:
+            self.assertIn(f'id="{el}"', HTML)
+        self.assertIn("showJobDescription", JS)
+        self.assertIn("job-description-content", JS)
+        self.assertIn("job-source-link", JS)
+        self.assertIn('target="_blank"', HTML)
+        self.assertIn('rel="noopener noreferrer"', HTML)
+        for sel in [".job-description-dialog", ".job-description-content", ".job-description-actions"]:
+            self.assertIn(sel, CSS)
+
         self.assertIn("state.jobs", JS)
         self.assertIn("state.jobs=state.jobs||[]", JS)
         self.assertIn("PLAN_KEY", JS)
@@ -79,11 +97,11 @@ class CareerTabTests(unittest.TestCase):
             self.assertIn(sel, CSS)
 
     def test_career_block_exists_in_sw(self):
-        self.assertIn("app.js?v=15", HTML)
-        self.assertIn("styles.css?v=15", HTML)
-        self.assertIn("daybook-v15", SW)
-        self.assertIn("styles.css?v=15", SW)
-        self.assertIn("app.js?v=15", SW)
+        self.assertIn("app.js?v=16", HTML)
+        self.assertIn("styles.css?v=16", HTML)
+        self.assertIn("daybook-v16", SW)
+        self.assertIn("styles.css?v=16", SW)
+        self.assertIn("app.js?v=16", SW)
         self.assertIn("hermes-jobs.json", SW)
 
     def test_hermes_auto_pull_present(self):
