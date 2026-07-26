@@ -1,5 +1,5 @@
-const CACHE='daybook-v14';
-const ASSETS=['./','./index.html','./styles.css?v=14','./app.js?v=14','./manifest.webmanifest'];
+const CACHE='daybook-v15';
+const ASSETS=['./','./index.html','./styles.css?v=15','./app.js?v=15','./manifest.webmanifest','./hermes-jobs.json'];
 
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));

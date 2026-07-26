@@ -79,11 +79,21 @@ class CareerTabTests(unittest.TestCase):
             self.assertIn(sel, CSS)
 
     def test_career_block_exists_in_sw(self):
-        self.assertIn("app.js?v=14", HTML)
-        self.assertIn("styles.css?v=14", HTML)
-        self.assertIn("daybook-v14", SW)
-        self.assertIn("styles.css?v=14", SW)
-        self.assertIn("app.js?v=14", SW)
+        self.assertIn("app.js?v=15", HTML)
+        self.assertIn("styles.css?v=15", HTML)
+        self.assertIn("daybook-v15", SW)
+        self.assertIn("styles.css?v=15", SW)
+        self.assertIn("app.js?v=15", SW)
+        self.assertIn("hermes-jobs.json", SW)
+
+    def test_hermes_auto_pull_present(self):
+        self.assertIn('id="hermes-scanned-at"', HTML)
+        self.assertIn('id="hermes-count"', HTML)
+        self.assertIn('id="hermes-refresh"', HTML)
+        self.assertIn('id="hermes-add-all"', HTML)
+        self.assertIn("HERMES_URL", JS)
+        self.assertIn("fetchHermesJobs", JS)
+        self.assertIn("aznzeus-coder.github.io/life-dashboard/hermes-jobs.json", JS)
 
     def test_job_import_widget_present(self):
         for el in ["job-import-json", "job-import-run", "job-import-status"]:
