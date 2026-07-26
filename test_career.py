@@ -96,12 +96,32 @@ class CareerTabTests(unittest.TestCase):
         for sel in [".career-tabs", ".career-board", ".career-card", ".career-detail", ".career-score", ".career-toolbar", ".career-stage", ".career-mode-remote", ".career-mode-hybrid", ".career-mode-onsite"]:
             self.assertIn(sel, CSS)
 
+    def test_career_card_renders_company_above_title(self):
+        """Cards must show Company above Title (LinkedIn / Indeed layout)."""
+        # The renderCareer template must place .career-card-company BEFORE <strong>{title}.
+        company_idx = JS.find("career-card-company")
+        title_idx = JS.find("data-show-job")
+        self.assertNotEqual(company_idx, -1)
+        self.assertNotEqual(title_idx, -1)
+        # Company should appear in the card's innerHTML before the title text. The simplest
+        # way to assert this: extract the data-show-job card template and confirm company
+        # string precedes title string within it.
+        i = JS.find('data-show-job="')
+        j = JS.find('</article>', i)
+        card_template = JS[i:j]
+        company_pos = card_template.find("career-card-company")
+        title_pos = card_template.find("<strong>")
+        self.assertNotEqual(company_pos, -1)
+        self.assertNotEqual(title_pos, -1)
+        self.assertLess(company_pos, title_pos,
+                        "Company must render above the title inside the card template")
+
     def test_career_block_exists_in_sw(self):
-        self.assertIn("app.js?v=16", HTML)
-        self.assertIn("styles.css?v=16", HTML)
-        self.assertIn("daybook-v16", SW)
-        self.assertIn("styles.css?v=16", SW)
-        self.assertIn("app.js?v=16", SW)
+        self.assertIn("app.js?v=17", HTML)
+        self.assertIn("styles.css?v=17", HTML)
+        self.assertIn("daybook-v17", SW)
+        self.assertIn("styles.css?v=17", SW)
+        self.assertIn("app.js?v=17", SW)
         self.assertIn("hermes-jobs.json", SW)
 
     def test_hermes_auto_pull_present(self):
