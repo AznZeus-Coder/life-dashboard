@@ -218,7 +218,7 @@
         "fetchedAt": "2026-07-26T17:14:02.947475+00:00",
         "composite": 7.9,
         "query": "assistant+controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -311,7 +311,7 @@
         "fetchedAt": "2026-07-26T17:13:53.528821+00:00",
         "composite": 6.95,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -373,7 +373,7 @@
         "fetchedAt": "2026-07-26T17:13:53.528821+00:00",
         "composite": 6.95,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -435,7 +435,7 @@
         "fetchedAt": "2026-07-26T17:14:00.601196+00:00",
         "composite": 6.95,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -466,7 +466,7 @@
         "fetchedAt": "2026-07-26T17:13:56.659690+00:00",
         "composite": 6.9,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -528,7 +528,7 @@
         "fetchedAt": "2026-07-26T17:13:56.659690+00:00",
         "composite": 6.5,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     },
     {
@@ -559,7 +559,7 @@
         "fetchedAt": "2026-07-26T17:13:56.659690+00:00",
         "composite": 6.5,
         "query": "controller",
-        "salaryLabel": "?"
+        "salaryLabel": "no comp listed"
       }
     }
   ]
